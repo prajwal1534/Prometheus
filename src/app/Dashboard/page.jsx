@@ -18,29 +18,29 @@ export default function page() {
           <div className=" space-y-4">
             <button
               onClick={() => setPage("create")}
-              className="text-2xl text-center  btn btn-wide hover:border-white active:bg-slate-50 focus:bg-slate-400"
+              className="text-2xl text-center  btn btn-wide hover:border-white  focus:bg-slate-800 focus:border-white"
             >
               Create
             </button>
             <button
               onClick={() => setPage("sell")}
-              className="text-2xl text-center  btn btn-wide hover:border-white"
+              className="text-2xl text-center  btn btn-wide hover:border-white focus:bg-slate-800 focus:border-white"
             >
               Sell
             </button>
             <button
               onClick={() => setPage("logs")}
-              className="text-2xl text-center  btn btn-wide hover:border-white"
+              className="text-2xl text-center  btn btn-wide hover:border-white focus:bg-slate-800 focus:border-white"
             >
               Logs
             </button>
-            <button className="text-2xl text-center  btn btn-wide hover:border-white">
+            {/*<button className="text-2xl text-center  btn btn-wide hover:border-white">
               Wide
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>
-      <div className=" w-full">
+      <div className=" w-full ">
         {currentPage == "create" && <CreatePage />}
         {currentPage == "sell" && <SellingPage />}
         {currentPage == "logs" && <LogsPage />}
