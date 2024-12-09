@@ -9,7 +9,7 @@ export default function page() {
   const [currentPage, setPage] = useState("create");
 
   return (
-    <div className=" flex flex-row h-screen bg-base-100">
+    <div className=" flex flex-row min-h-screen bg-base-100">
       <div className="  w-[35%] border-r-2 border-gray-600 flex justify-center items-center">
         <div className=" w-[80%] h-[90%] ">
           <text className=" font-bold text-4xl">DASHBOARD</text>

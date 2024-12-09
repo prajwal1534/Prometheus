@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import Navbar from "@/Components/Navbar/page";
 import dbConnect from "@/lib/dbConnect";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,6 +28,11 @@ export async function connect() {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <head>
+          <title>Prometheus</title>
+        </head>
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

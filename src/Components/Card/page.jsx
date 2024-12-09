@@ -34,13 +34,16 @@ export default function Card() {
           >
             Expected Yield:- <span className=" font-bold">15% APY </span>
           </CardItem>
-          <div className="flex justify-between items-center mt-6 ">
+          <CardItem
+            translateZ={20}
+            className="flex justify-between items-center mt-6 "
+          >
             <a href="/Solar">
               <button className="bg-black inline-flex h-12 group-hover:animate-shimmer items-center justify-center rounded-md border border-[#538021] group-hover:bg-[linear-gradient(110deg,#000103,45%,#68b52a,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#538021] focus:ring-offset-2 focus:ring-offset-slate-50">
-                <CardItem translateZ={20}>Know more</CardItem>
+                Know more
               </button>
             </a>
-          </div>
+          </CardItem>
         </CardBody>
       </CardContainer>
 
@@ -75,18 +78,16 @@ export default function Card() {
             Expected Yield:- <span className=" font-bold">11% APY </span>{" "}
           </CardItem>
           {/* button */}
-          <div className="flex justify-between items-center mt-6 ">
+          <CardItem
+            translateZ={20}
+            className="flex justify-between items-center mt-6 "
+          >
             <a href="/gaali">
               <button className="bg-black inline-flex h-12 group-hover:animate-shimmer items-center justify-center rounded-md border border-[#538021] group-hover:bg-[linear-gradient(110deg,#000103,45%,#68b52a,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#538021] focus:ring-offset-2 focus:ring-offset-slate-50">
-                <CardItem
-                  translateZ={20}
-                  //className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                >
-                  Know more
-                </CardItem>
+                Know more
               </button>
             </a>
-          </div>
+          </CardItem>
         </CardBody>
       </CardContainer>
 
@@ -121,20 +122,17 @@ export default function Card() {
             Invest and just be like a chill guy
           </CardItem>
           {/*button*/}
-          <div className="flex justify-between items-center mt-6 ">
+          <CardItem
+            translateZ={20}
+            className="flex justify-between items-center mt-6 "
+          >
             <a href="/Dsu">
               {" "}
               <button className="bg-black inline-flex h-12 group-hover:animate-shimmer items-center justify-center rounded-md border border-[#538021] group-hover:bg-[linear-gradient(110deg,#000103,45%,#68b52a,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#538021] focus:ring-offset-2 focus:ring-offset-slate-50">
-                <CardItem
-                  translateZ={20}
-                  //as="button"
-                  //className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                >
-                  Know more
-                </CardItem>
+                Know more
               </button>
             </a>
-          </div>
+          </CardItem>
         </CardBody>
       </CardContainer>
       {/*<div className="card bg-base-100 w-96 shadow-xl border-[2px] border-green-400">
